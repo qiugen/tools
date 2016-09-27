@@ -60,7 +60,7 @@ if __name__ == "__main__":
 	target_file = sys.argv[2]
 	_post_str = load_post_file(md_file)
 	u_post_str = _post_str.decode('utf8')
-	print u_post_str.encode('gb18030')
+	#print u_post_str.encode('gb18030')
 
 	new_post_str = ''
 	ret = True
